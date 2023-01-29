@@ -138,3 +138,33 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+.pagdescricao {
+    display: flex;
+}
+
+.pagdescricao .mario-yoshi {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.pagdescricao .text-descricao {
+    display: flex;
+    padding: auto;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagdescricao .text-descricao h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.pagdescricao .text-descricao p{
+    padding: 10px;
+    align-items: center;
+}
